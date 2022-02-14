@@ -1,0 +1,70 @@
+    body {
+        /* border: 2px solid red; */
+        min-height: 700px;
+        width: 1000px;
+        margin: 0 auto;
+    }
+    
+    header {
+        height: 150px;
+        background-color: blue;
+        position: relative;
+    }
+    
+    header>img {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+    
+    nav {
+        line-height: 40px;
+        background-color: salmon;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: red;
+    }
+    
+    article {
+        min-height: 400px;
+        width: 75%;
+        float: left;
+        position: relative;
+    }
+    
+    aside {
+        min-height: 400px;
+        width: 25%;
+        float: left;
+        background-color: springgreen;
+        position: relative;
+    }
+    
+    footer {
+        clear: both;
+        height: 100px;
+        background-color: navy;
+        color: white;
+    }
+    
+    .box1 {
+        width: 200px;
+        height: 150px;
+        border: 1px solid red;
+        /* margin: 10px; */
+        position: absolute;
+        top: 10px;
+        left: 20px;
+    }
+    
+    .box-25 {
+        width: 25%;
+        height: 200px;
+        border: 1px solid red;
+        float: left;
+    }
